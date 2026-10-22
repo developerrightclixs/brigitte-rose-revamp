@@ -1,0 +1,9 @@
+# Source archives and OS/editor files
+gallery.zip
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
