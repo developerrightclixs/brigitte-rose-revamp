@@ -27,7 +27,7 @@
 
     /* Paragraphs and body copy */
     para: {
-      font: "https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+      font: "https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,600;1,400&display=swap",
       fallback: SANS,
       cssVar: "--f-para"
     },
