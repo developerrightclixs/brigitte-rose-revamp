@@ -1,7 +1,7 @@
 /* ==========================================================================
    Brigitte Rose — Luxury Sleepwear
    Design system: brand red #C8102E, black, cream/white.
-   Fonts: MADE Saonara (headings, self-hosted), Google Sans (body), Lora (labels/buttons)
+   Fonts: MADE Saonara (headings, self-hosted), EB Garamond (paragraphs), Google Sans (UI/body), Lora (labels/buttons)
    ========================================================================== */
 
 /* ---------- Fonts (self-hosted) ----------
@@ -32,6 +32,7 @@
   --f-display: "MADE Saonara", "Playfair Display", "Times New Roman", serif;
   --f-label: "Lora", Georgia, serif;
   --f-body: "Google Sans", "Google Sans Text", "Product Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-para: "EB Garamond", "Lora", Georgia, "Times New Roman", serif;
 
   --fs-display: clamp(2.5rem, 1.5rem + 3.6vw, 4.1rem);
   --fs-h1: clamp(2.2rem, 1.4rem + 3vw, 3.5rem);
@@ -86,7 +87,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; background: none; border: 0; padding: 0; }
 a { color: inherit; text-decoration: none; }
 ul, ol { margin: 0; padding: 0; list-style: none; }
-p { margin: 0 0 1em; }
+p { margin: 0 0 1em; font-family: var(--f-para); font-size: 1.0625rem; line-height: 1.72; }
 p:last-child { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--f-display);
@@ -138,7 +139,7 @@ address { font-style: normal; }
   color: var(--c-red);
   margin-bottom: 1rem;
 }
-.lead { font-size: 1.125rem; line-height: 1.7; color: var(--c-body); }
+.lead { font-size: 1.1875rem; line-height: 1.7; color: var(--c-body); }
 .muted { color: var(--c-muted); }
 .text-center { text-align: center; }
 .measure { max-width: 62ch; }
@@ -964,7 +965,7 @@ address { font-style: normal; }
 .prose h2 { font-size: 1.6rem; margin-top: 2.2em; }
 .prose h2:first-child { margin-top: 0; }
 .prose h3 { font-size: 1.2rem; margin-top: 1.6em; }
-.prose p, .prose li { color: var(--c-body); }
+.prose p, .prose li { color: var(--c-body); font-family: var(--f-para); font-size: 1.0625rem; line-height: 1.72; }
 .prose ul { list-style: disc; padding-left: 1.25em; margin-bottom: 1em; }
 .prose li { margin-bottom: 0.4em; }
 .notice { display: flex; gap: 12px; align-items: flex-start; padding: 16px 18px; background: var(--c-blush); border-left: 3px solid var(--c-red); border-radius: 0 var(--radius) var(--radius) 0; font-size: var(--fs-sm); margin-bottom: 2.5rem; }
