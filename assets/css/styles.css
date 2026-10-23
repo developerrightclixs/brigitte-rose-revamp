@@ -39,8 +39,8 @@
   /* Optical tuning for paragraph copy. A new face usually needs a nudge here:
      Garamonds and other small-x-height serifs read small at 1rem, Inter/Lato read
      large. Everything downstream (.lead, .prose) scales off these two. */
-  --fs-para: 1.0625rem;
-  --lh-para: 1.72;
+  --fs-para: 1rem;
+  --lh-para: 1.65;
 
   --fs-display: clamp(2.5rem, 1.5rem + 3.6vw, 4.1rem);
   --fs-h1: clamp(2.2rem, 1.4rem + 3vw, 3.5rem);
