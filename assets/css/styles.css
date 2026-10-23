@@ -479,6 +479,8 @@ address { font-style: normal; }
 .story__media { position: relative; }
 .story__media img { width: 100%; aspect-ratio: 4 / 3.7; object-fit: cover; border-radius: var(--radius-md); }
 .story__media--portrait img { aspect-ratio: 2 / 3; }
+/* Softer portrait crop: keeps a 2:3 source readable beside a short text column. */
+.story__media--4x5 img { aspect-ratio: 4 / 5; }
 .story__badge { position: absolute; right: -16px; bottom: -16px; width: clamp(96px, 12vw, 140px); }
 .story__badge img { aspect-ratio: 1; object-fit: contain; animation: slow-spin 40s linear infinite; }
 @keyframes slow-spin { to { transform: rotate(360deg); } }
