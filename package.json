@@ -1,0 +1,21 @@
+{
+  "name": "brigitte-rose-revamp",
+  "version": "1.0.0",
+  "description": "Luxury sleepwear storefront built in plain **HTML, CSS and JavaScript** (no framework, no build dependencies at runtime). Brand assets, copy, product names, prices and descriptions mirror the live reference at `brigitterose.developerstagging.com`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerrightclixs/brigitte-rose-revamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/developerrightclixs/brigitte-rose-revamp/issues"
+  },
+  "homepage": "https://github.com/developerrightclixs/brigitte-rose-revamp#readme"
+}
