@@ -43,24 +43,6 @@ BR.CONFIG = {
 
 BR.PRODUCTS = [
   {
-    id: "camouflage-sparkle-set",
-    swatch: "#4f5b3c",
-    color: "Camouflage",
-    style: "BR-001",
-    bullets: ["Long-sleeve top and pants", "Camouflage print", "Dark chocolate / light bronze piping", "Mocha sequin pocket strip"],
-    badges: ["New"],
-    reviews: [],
-    name: "Camouflage Sparkle Set",
-    price: 175,
-    fabric: "95% polyester, 5% spandex",
-    fabricKey: "polyester",
-    design: "Long-sleeve top and pants; camouflage print; dark chocolate/light bronze piping; mocha sequin pocket strip",
-    description: "Classic camouflage takes on a luxurious new look with rich chocolate accents and our signature mocha sparkle. A distinctive design that brings together individuality, beautiful detailing, and comfort.",
-    care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["camo_1", "camo_2", "camo_3", "camo_4", "camo_5"],
-    badge: "Debut Collection"
-  },
-  {
     id: "leopard-sparkle-set",
     swatch: "#b4742c",
     color: "Leopard",
@@ -76,6 +58,24 @@ BR.PRODUCTS = [
     description: "A statement leopard print meets striking red accents and our signature sparkle. Designed to bring a glamorous touch to comfort, with every detail carefully chosen to stand out.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
     images: ["leopard_1", "leopard_2", "leopard_3", "leopard_4", "leopard_5"],
+    badge: "Debut Collection"
+  },
+  {
+    id: "grey-sparkle-set",
+    swatch: "#7d7f84",
+    color: "Grey",
+    style: "BR-004",
+    bullets: ["Long-sleeve top and pants", "Black / gunmetal piping", "Gunmetal sequin pocket strip"],
+    badges: ["New"],
+    reviews: [],
+    name: "Grey Sparkle Set",
+    price: 160,
+    fabric: "90% modal, 10% spandex",
+    fabricKey: "modal",
+    design: "Long-sleeve top and pants; black/gunmetal piping; gunmetal sequin pocket strip",
+    description: "Soft grey meets subtle gunmetal sparkle in a design that feels both modern and timeless. Finished with refined detailing and our luxurious modal fabric, this set is made for beautiful moments of comfort.",
+    care: "Delicate wash; tumble dry low or lay flat to dry",
+    images: ["grey_1", "grey_2", "grey_3", "grey_4", "grey_5"],
     badge: "Debut Collection"
   },
   {
@@ -97,21 +97,21 @@ BR.PRODUCTS = [
     badge: "Debut Collection"
   },
   {
-    id: "grey-sparkle-set",
-    swatch: "#7d7f84",
-    color: "Grey",
-    style: "BR-004",
-    bullets: ["Long-sleeve top and pants", "Black / gunmetal piping", "Gunmetal sequin pocket strip"],
+    id: "camouflage-sparkle-set",
+    swatch: "#4f5b3c",
+    color: "Camouflage",
+    style: "BR-001",
+    bullets: ["Long-sleeve top and pants", "Camouflage print", "Dark chocolate / light bronze piping", "Mocha sequin pocket strip"],
     badges: ["New"],
     reviews: [],
-    name: "Grey Sparkle Set",
-    price: 160,
-    fabric: "90% modal, 10% spandex",
-    fabricKey: "modal",
-    design: "Long-sleeve top and pants; black/gunmetal piping; gunmetal sequin pocket strip",
-    description: "Soft grey meets subtle gunmetal sparkle in a design that feels both modern and timeless. Finished with refined detailing and our luxurious modal fabric, this set is made for beautiful moments of comfort.",
+    name: "Camouflage Sparkle Set",
+    price: 175,
+    fabric: "95% polyester, 5% spandex",
+    fabricKey: "polyester",
+    design: "Long-sleeve top and pants; camouflage print; dark chocolate/light bronze piping; mocha sequin pocket strip",
+    description: "Classic camouflage takes on a luxurious new look with rich chocolate accents and our signature mocha sparkle. A distinctive design that brings together individuality, beautiful detailing, and comfort.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["grey_1", "grey_2", "grey_3", "grey_4", "grey_5"],
+    images: ["camo_1", "camo_2", "camo_3", "camo_4", "camo_5"],
     badge: "Debut Collection"
   },
   {
