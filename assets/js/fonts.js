@@ -39,6 +39,13 @@
       cssVar: "--f-label"
     },
 
+    /* Script accent: footer brand line */
+    script: {
+      font: "https://fonts.googleapis.com/css2?family=Parisienne&display=swap",
+      fallback: 'Snell Roundhand, "Apple Chancery", cursive',
+      cssVar: "--f-script"
+    },
+
     /* UI chrome: nav, prices, badges, form controls */
     ui: {
       font: "https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap",

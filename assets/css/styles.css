@@ -35,6 +35,7 @@
   --f-label: "Lora", Georgia, serif;
   --f-body: "Google Sans", "Google Sans Text", "Product Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --f-para: "EB Garamond", "Lora", Georgia, "Times New Roman", serif;
+  --f-script: "Parisienne", "Snell Roundhand", "Apple Chancery", cursive;
 
   /* Optical tuning for paragraph copy. A new face usually needs a nudge here:
      Garamonds and other small-x-height serifs read small at 1rem, Inter/Lato read
@@ -1004,7 +1005,8 @@ address { font-style: normal; }
 @media (max-width: 560px) { .footer__main { grid-template-columns: 1fr; } }
 .footer__brand img.footer__lips { width: 64px; margin-bottom: 18px; }
 .footer__brand p { font-size: var(--fs-sm); color: var(--c-body); max-width: 34ch; }
-.footer__brand h2 { font-size: 1.35rem; margin-bottom: 0.4em; color: var(--c-red); }
+.footer__brand h2 { font-family: var(--f-script); font-size: 2rem; font-weight: 400;
+  line-height: 1.25; margin-bottom: 0.3em; color: var(--c-red); }
 .footer__col h3 { font-family: var(--f-label); font-size: var(--fs-xs); letter-spacing: 0.2em; text-transform: uppercase; color: var(--c-red); margin-bottom: 18px; }
 .footer__col li { margin-bottom: 10px; }
 .footer__col a { font-size: var(--fs-sm); color: var(--c-ink); display: inline-flex; min-height: 32px; align-items: center; }
