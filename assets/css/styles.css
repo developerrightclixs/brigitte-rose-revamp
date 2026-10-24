@@ -1004,7 +1004,7 @@ address { font-style: normal; }
 @media (max-width: 560px) { .footer__main { grid-template-columns: 1fr; } }
 .footer__brand img.footer__lips { width: 64px; margin-bottom: 18px; }
 .footer__brand p { font-size: var(--fs-sm); color: var(--c-body); max-width: 34ch; }
-.footer__brand h2 { font-size: 1.35rem; margin-bottom: 0.4em; }
+.footer__brand h2 { font-size: 1.35rem; margin-bottom: 0.4em; color: var(--c-red); }
 .footer__col h3 { font-family: var(--f-label); font-size: var(--fs-xs); letter-spacing: 0.2em; text-transform: uppercase; color: var(--c-red); margin-bottom: 18px; }
 .footer__col li { margin-bottom: 10px; }
 .footer__col a { font-size: var(--fs-sm); color: var(--c-ink); display: inline-flex; min-height: 32px; align-items: center; }
