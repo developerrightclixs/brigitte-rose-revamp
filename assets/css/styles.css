@@ -35,7 +35,7 @@
   --f-label: "Lora", Georgia, serif;
   --f-body: "Google Sans", "Google Sans Text", "Product Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --f-para: "EB Garamond", "Lora", Georgia, "Times New Roman", serif;
-  --f-script: "Parisienne", "Snell Roundhand", "Apple Chancery", cursive;
+  --f-script: "Parisienne", "Segoe Script", "Snell Roundhand", "Apple Chancery", Georgia, serif;
 
   /* Optical tuning for paragraph copy. A new face usually needs a nudge here:
      Garamonds and other small-x-height serifs read small at 1rem, Inter/Lato read

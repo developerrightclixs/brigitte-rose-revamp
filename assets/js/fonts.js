@@ -42,7 +42,7 @@
     /* Script accent: footer brand line */
     script: {
       font: "https://fonts.googleapis.com/css2?family=Parisienne&display=swap",
-      fallback: 'Snell Roundhand, "Apple Chancery", cursive',
+      fallback: '"Segoe Script", "Snell Roundhand", "Apple Chancery", Georgia, serif',
       cssVar: "--f-script"
     },
 
