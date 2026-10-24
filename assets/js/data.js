@@ -57,7 +57,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; camouflage print; dark chocolate/light bronze piping; mocha sequin pocket strip",
     description: "Classic camouflage takes on a luxurious new look with rich chocolate accents and our signature mocha sparkle. A distinctive design that brings together individuality, beautiful detailing, and comfort.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["IMG_1177", "IMG_1179", "IMG_1178", "IMG_1183", "IMG_1184", "IMG_1181", "IMG_1176"],
+    images: ["camo_1", "camo_2", "camo_3", "camo_4", "camo_5"],
     badge: "Debut Collection"
   },
   {
@@ -75,7 +75,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; leopard print; volcano-red piping; red sequin pocket strip",
     description: "A statement leopard print meets striking red accents and our signature sparkle. Designed to bring a glamorous touch to comfort, with every detail carefully chosen to stand out.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["IMG_1192", "IMG_1194", "IMG_1193", "IMG_1191", "IMG_1190"],
+    images: ["leopard_1", "leopard_2", "leopard_3", "leopard_4", "leopard_5"],
     badge: "Debut Collection"
   },
   {
@@ -93,7 +93,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; navy/titanium piping; navy sequin pocket strip",
     description: "Rich navy, delicate detailing, and our signature sparkle come together in a design that celebrates timeless elegance. Crafted from a soft rayon fabric for a luxurious feel.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["IMG_1188", "IMG_1187", "IMG_1186", "IMG_1185"],
+    images: ["navy_1", "navy_2", "navy_3", "navy_4", "navy_5"],
     badge: "Debut Collection"
   },
   {
@@ -111,7 +111,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; black/gunmetal piping; gunmetal sequin pocket strip",
     description: "Soft grey meets subtle gunmetal sparkle in a design that feels both modern and timeless. Finished with refined detailing and our luxurious modal fabric, this set is made for beautiful moments of comfort.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["IMG_1175", "IMG_1174", "IMG_1173", "IMG_1172", "IMG_1171"],
+    images: ["grey_1", "grey_2", "grey_3", "grey_4", "grey_5"],
     badge: "Debut Collection"
   },
   {
@@ -129,7 +129,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; black piping; black sequin pocket strip",
     description: "Our signature sparkle brings a beautiful finishing touch to classic black. Thoughtfully designed with delicate sequin detailing and a soft modal fabric, this set makes comfort feel as luxurious as it looks.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["black_1", "black_2", "black_3", "black_4", "black_5", "black_6", "black_7"],
+    images: ["black_1", "black_2", "black_3", "black_4", "black_5"],
     badge: "Debut Collection"
   }
 ];
