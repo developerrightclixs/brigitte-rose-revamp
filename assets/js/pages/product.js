@@ -57,7 +57,7 @@ BR.onReady = function () {
         '<h1 class="pdp2__title">' + esc(p.name) + '</h1>' +
         '<div id="rating-line">' + ratingLine() + '</div>' +
         '<div class="pdp2__price"><span>' + store.money(p.price) + '</span></div>' +
-        '<div class="pdp2__promo">' + I.gift + '<span>A portion of proceeds supports fire-relief efforts in Pacific Palisades &amp; Altadena</span></div>' +
+        '<div class="pdp2__promo">' + I.gift + '<span>A portion of proceeds supports the Los Angeles County Relief Fund for Palisades &amp; Eaton fire relief.</span></div>' +
 
         '<div class="opt"><div class="opt__head"><span class="opt__label">Print: <strong>' + esc(p.color || p.name) + '</strong></span><span class="muted" style="font-size:var(--fs-xs)">' + BR.PRODUCTS.length + ' prints</span></div>' +
           '<div class="swatches">' + BR.PRODUCTS.map(function (x) { return '<a class="swatch' + (x.id === p.id ? " is-active" : "") + '" href="product.html?p=' + x.id + '" aria-label="' + esc(x.name) + '" title="' + esc(x.color || x.name) + '"' + (x.id === p.id ? ' aria-current="true"' : "") + '><img src="' + BR.img(x.images[0], "sm") + '" alt="" width="56" height="75" loading="lazy"></a>'; }).join("") + '</div></div>' +
