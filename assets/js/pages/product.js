@@ -78,7 +78,7 @@ BR.onReady = function () {
         '<div class="delivery" role="tablist" aria-label="Delivery and giving">' +
           '<button type="button" class="delivery__opt is-active" role="tab" aria-selected="true">' + I.truck + '<div><div class="delivery__title">Ship To You <em>' + (cfg.freeShippingThreshold ? "Free over " + store.money(cfg.freeShippingThreshold) : "") + '</em></div><div class="delivery__desc">Enjoy the convenience of shopping from home! Your favorite Brigitte Rose pieces will be carefully packaged and shipped directly to your doorstep, making your shopping experience simple and effortless.</div></div></button>' +
           '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.sparkle + '<div><div class="delivery__title">Delivery <em>24–48 hours</em></div><div class="delivery__desc">24–48 hours, arriving at your doorstep.</div></div></button>' +
-          '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.gift + '<div><div class="delivery__title">A Portion of Proceeds</div><div class="delivery__desc">A portion of proceeds will be donated to the Los Angeles County Relief Fund to support communities affected by the Palisades and Eaton fires.</div></div></button>' +
+          '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.gift + '<div><div class="delivery__title">A Portion of Proceeds</div><div class="delivery__desc">A portion of proceeds supports fire-relief efforts in Pacific Palisades &amp; Altadena.</div></div></button>' +
         '</div>' +
 
         '<div class="accordion pdp2__details">' +
