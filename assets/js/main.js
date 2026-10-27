@@ -435,7 +435,6 @@
   function initMisc() {
     $$("[data-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });
     $$("[data-contact-email]").forEach(function (el) { el.textContent = BR.CONFIG.contact.email; el.href = "mailto:" + BR.CONFIG.contact.email; });
-    $$("[data-contact-phone]").forEach(function (el) { el.textContent = BR.CONFIG.contact.phone; el.href = "tel:" + BR.CONFIG.contact.phoneHref; });
     $$("[data-instagram]").forEach(function (el) { el.href = BR.CONFIG.contact.instagram; });
   }
 

@@ -34,8 +34,6 @@ BR.CONFIG = {
   ],
   contact: {
     email: "ex@domain.com",       // TODO client: replace with real inbox
-    phone: "(+1) 234 56 789",     // TODO client: replace with real number
-    phoneHref: "+123456789",
     location: "Pacific Palisades, California",
     instagram: "https://www.instagram.com/" // TODO client: confirm handle
   }
