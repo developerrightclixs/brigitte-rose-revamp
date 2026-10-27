@@ -41,7 +41,7 @@ function br_defaults() {
 		'pdp_delivery_note'  => '24–48 hours',
 		'pdp_delivery_text'  => '24–48 hours, arriving at your doorstep.',
 		'pdp_give_title'     => 'A Portion of Proceeds',
-		'pdp_give_text'      => 'A portion of proceeds supports fire-relief efforts in Pacific Palisades & Altadena.',
+		'pdp_give_text'      => 'A portion of proceeds supports the Los Angeles County Relief Fund for Palisades & Eaton fire relief.',
 		'pdp_designed_in'    => 'Designed in Pacific Palisades, California',
 		'pdp_returns'        => 'Orders ship within 24–48 hours. Complimentary standard shipping on orders over {free_shipping}; express delivery available at checkout.',
 		'pdp_returns_2'      => 'Not completely happy? Contact us within 14 days of delivery for returns and exchanges.',
