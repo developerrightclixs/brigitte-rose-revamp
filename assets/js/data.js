@@ -93,7 +93,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; navy/titanium piping; navy sequin pocket strip",
     description: "Rich navy, delicate detailing, and our signature sparkle come together in a design that celebrates timeless elegance. Crafted from a soft rayon fabric for a luxurious feel.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["navy_1", "navy_2", "navy_3", "navy_4", "navy_5"],
+    images: ["navy_1", "navy_2", "navy_3", "navy_4", "navy_6"],
     badge: "Debut Collection"
   },
   {
@@ -111,7 +111,7 @@ BR.PRODUCTS = [
     design: "Long-sleeve top and pants; camouflage print; dark chocolate/light bronze piping; mocha sequin pocket strip",
     description: "Classic camouflage takes on a luxurious new look with rich chocolate accents and our signature mocha sparkle. A distinctive design that brings together individuality, beautiful detailing, and comfort.",
     care: "Delicate wash; tumble dry low or lay flat to dry",
-    images: ["camo_1", "camo_2", "camo_3", "camo_4", "camo_5"],
+    images: ["camo_1", "camo_2", "camo_3", "camo_4", "camo_6"],
     badge: "Debut Collection"
   },
   {
