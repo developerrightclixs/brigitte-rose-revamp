@@ -452,7 +452,7 @@ address { font-style: normal; }
 .hero__title em { font-style: italic; color: var(--c-red); }
 .hero__text { max-width: 44ch; margin-bottom: 2rem; color: var(--c-body); }
 .hero__actions { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
-.hero__note { margin-top: 2.25rem; display: flex; align-items: center; gap: clamp(8px, 1.2vw, 12px); font-family: var(--f-script); font-size: clamp(1.125rem, 1rem + 0.8vw, 1.5rem); line-height: 1.25; color: var(--c-red); }
+.hero__note { margin-top: 2.25rem; display: flex; align-items: center; gap: clamp(8px, 1.2vw, 12px); font-family: var(--f-script); font-size: 1.75rem; line-height: 1.25; color: var(--c-red); }
 .hero__note-lips { width: 1.65em; height: auto; flex-shrink: 0; }
 .hero__note::before { content: ""; width: 32px; height: 1px; background: var(--c-red); }
 @media (max-width: 1024px) {
