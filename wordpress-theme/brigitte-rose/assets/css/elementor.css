@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Brigitte Rose - Elementor
+   Keeps the editor canvas honest: Elementor's default section padding and
+   column gaps would double up on widgets that already carry the design
+   system's own .section spacing.
+   ========================================================================== */
+
+/* Brigitte Rose widgets manage their own <section> padding. */
+.elementor-widget-br-hero .elementor-widget-container,
+.elementor-widget-br-story .elementor-widget-container,
+.elementor-widget-br-values .elementor-widget-container,
+.elementor-widget-br-products .elementor-widget-container,
+.elementor-widget-br-gallery .elementor-widget-container,
+.elementor-widget-br-quote .elementor-widget-container,
+.elementor-widget-br-faq .elementor-widget-container,
+.elementor-widget-br-section-head .elementor-widget-container,
+.elementor-widget-br-page-hero .elementor-widget-container,
+.elementor-widget-br-newsletter .elementor-widget-container,
+.elementor-widget-br-wishlist .elementor-widget-container,
+.elementor-widget-br-prose .elementor-widget-container { padding: 0; }
+
+/* Full-bleed widgets must not be boxed in by Elementor's content width. */
+.elementor-widget-br-hero,
+.elementor-widget-br-page-hero,
+.elementor-widget-br-newsletter { width: 100%; }
+
+/* The theme's own sections already supply the container, so a nested
+   Elementor container must not add a second one. */
+.elementor-section.elementor-section-full_width > .elementor-container { max-width: none; }
+
+/* Elementor resets heading margins; the design system wants them back inside
+   the brand widgets. */
+.elementor .br-prose h2,
+.elementor .prose h2,
+.elementor .story__content h2,
+.elementor .section-head h2 { margin-bottom: 0.5em; }
+
+/* Elementor's editor adds an empty-widget placeholder that breaks the grid. */
+.elementor-editor-active .product-grid > .elementor-element-empty,
+.elementor-editor-active .values > .elementor-element-empty { display: none; }
+
+/* Reveal animations must not hide content while editing. */
+.elementor-editor-active .reveal,
+.elementor-editor-active .reveal-stagger,
+.elementor-editor-active .reveal-stagger > * {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* The sticky product gallery and buy box fight Elementor's editor overlay. */
+.elementor-editor-active .pdp2__media,
+.elementor-editor-active .pdp2__buy,
+.elementor-editor-active .summary { position: static; }
+
+/* Make the theme's section backgrounds visible in the panel preview. */
+.elementor-widget-br-values .section--sand,
+.elementor-widget-br-quote .section--cream { width: 100%; }
+
+/* Elementor Pro Theme Builder: a header template replaces .header, so the
+   body does not need the theme's header offset. */
+.elementor-location-header .announce + .header { position: relative; }
+
+/* Panel: our widget category icon colour. */
+#elementor-panel-category-brigitte-rose .elementor-panel-heading-title { letter-spacing: 0.04em; }
