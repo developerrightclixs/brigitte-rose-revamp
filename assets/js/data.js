@@ -12,7 +12,7 @@ BR.CONFIG = {
   // Shipping
   freeShippingThreshold: 150, // USD — orders at/above this get free standard shipping
   shippingMethods: [
-    { id: "standard", name: "Standard Shipping", desc: "Arrives in 24–48 hours", price: 10 },
+    { id: "standard", name: "Standard Shipping", desc: "Arrives in 5–10 days", price: 10 },
     { id: "express",  name: "Express Shipping",  desc: "Next business day",       price: 25 }
   ],
   // Tax: California sales tax applied for CA addresses (brand is based in Pacific Palisades).

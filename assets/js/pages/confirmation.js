@@ -18,7 +18,7 @@ BR.onReady = function () {
       '<div class="confirm__icon">' + BR.icons.check + '</div>' +
       '<h1>Thank you, ' + BR.escape(order.shipping.first) + '.</h1>' +
       '<div class="confirm__order">Order ' + BR.escape(order.number) + ' · ' + dateStr + '</div>' +
-      '<p class="lead">Your order is confirmed. A receipt has been sent to <strong>' + BR.escape(order.email) + '</strong>. Your set will be carefully packaged and shipped within 24–48 hours.</p>' +
+      '<p class="lead">Your order is confirmed. A receipt has been sent to <strong>' + BR.escape(order.email) + '</strong>. Your set will be carefully packaged and shipped within 5–10 days.</p>' +
       '<p class="muted" style="font-size:.9rem">A portion of this order supports fire-relief efforts benefiting Pacific Palisades and Altadena. Thank you for being part of that.</p>' +
       '<div class="confirm__card">' +
         '<div class="checkout__items" style="max-height:none">' +

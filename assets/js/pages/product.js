@@ -72,12 +72,12 @@ BR.onReady = function () {
           '<button type="button" class="btn btn--black" id="add-to-cart">Add to Bag</button>' +
           '<button type="button" class="pdp2__fav' + (wished ? " is-active" : "") + '" id="pdp-wish" aria-pressed="' + wished + '" aria-label="' + (wished ? "Remove from" : "Add to") + ' favorites">' + I.heart + '</button>' +
         '</div>' +
-        '<div class="pdp2__stock">In stock · Ships in 24–48 hours</div>' +
+        '<div class="pdp2__stock">In stock · Ships in 5–10 days</div>' +
         installments +
 
         '<div class="delivery" role="tablist" aria-label="Delivery and giving">' +
           '<button type="button" class="delivery__opt is-active" role="tab" aria-selected="true">' + I.truck + '<div><div class="delivery__title">Ship To You <em>' + (cfg.freeShippingThreshold ? "Free over " + store.money(cfg.freeShippingThreshold) : "") + '</em></div><div class="delivery__desc">Enjoy the convenience of shopping from home! Your favorite Brigitte Rose pieces will be carefully packaged and shipped directly to your doorstep, making your shopping experience simple and effortless.</div></div></button>' +
-          '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.sparkle + '<div><div class="delivery__title">Delivery <em>24–48 hours</em></div><div class="delivery__desc">24–48 hours, arriving at your doorstep.</div></div></button>' +
+          '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.sparkle + '<div><div class="delivery__title">Delivery <em>5–10 days</em></div><div class="delivery__desc">5–10 days, arriving at your doorstep.</div></div></button>' +
           '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.gift + '<div><div class="delivery__title">A Portion of Proceeds</div><div class="delivery__desc">A portion of proceeds supports The California Community Foundation Wildfire Recovery Fund.</div></div></button>' +
         '</div>' +
 
@@ -88,7 +88,7 @@ BR.onReady = function () {
             '<div class="pdp2__meta">Style # ' + esc(p.style || p.id.toUpperCase()) + '</div>' +
           '</div></div></div></div>' +
           '<div class="accordion__item"><button type="button" class="accordion__btn" aria-expanded="false" aria-controls="acc-care">Fabric &amp; Care ' + I.plus + '</button><div class="accordion__panel" id="acc-care"><div><div class="accordion__content"><p><strong>Fabric:</strong> ' + esc(p.fabric) + '</p><p><strong>Care:</strong> ' + esc(p.care) + '</p></div></div></div></div>' +
-          '<div class="accordion__item"><button type="button" class="accordion__btn" aria-expanded="false" aria-controls="acc-ship">Shipping &amp; Returns ' + I.plus + '</button><div class="accordion__panel" id="acc-ship"><div><div class="accordion__content"><p>Orders ship within 24–48 hours. Complimentary standard shipping on orders over ' + store.money(cfg.freeShippingThreshold) + '; express delivery available at checkout.</p><p>Not completely happy? <a class="text-link" href="contact.html">Contact us</a> within 14 days of delivery for returns and exchanges. See our <a class="text-link" href="terms.html#shipping">Shipping &amp; Returns policy</a>.</p></div></div></div></div>' +
+          '<div class="accordion__item"><button type="button" class="accordion__btn" aria-expanded="false" aria-controls="acc-ship">Shipping &amp; Returns ' + I.plus + '</button><div class="accordion__panel" id="acc-ship"><div><div class="accordion__content"><p>Orders ship within 5–10 days. Complimentary standard shipping on orders over ' + store.money(cfg.freeShippingThreshold) + '; express delivery available at checkout.</p><p>Not completely happy? <a class="text-link" href="contact.html">Contact us</a> within 14 days of delivery for returns and exchanges. See our <a class="text-link" href="terms.html#shipping">Shipping &amp; Returns policy</a>.</p></div></div></div></div>' +
         '</div>' +
         '<div class="pdp2__share"><span>Share</span><button type="button" id="share-copy">' + I.check + ' Copy link</button><a data-instagram href="' + esc(cfg.contact.instagram) + '" target="_blank" rel="noopener">Instagram</a></div>' +
       '</div>' +
