@@ -33,7 +33,7 @@ function br_defaults() {
 		// Shop.
 		'free_shipping'      => 150,
 		'pdp_brand_line'     => 'Brigitte Rose · Debut Collection',
-		'pdp_promo'          => 'A portion of proceeds supports the Los Angeles County Relief Fund for Palisades & Eaton fire relief.',
+		'pdp_promo'          => 'A portion of proceeds supports The California Community Foundation Wildfire Recovery Fund.',
 		'pdp_stock_line'     => 'In stock · Ships in 24–48 hours',
 		'pdp_ship_title'     => 'Ship To You',
 		'pdp_ship_text'      => 'Enjoy the convenience of shopping from home! Your favorite Brigitte Rose pieces will be carefully packaged and shipped directly to your doorstep, making your shopping experience simple and effortless.',
@@ -41,7 +41,7 @@ function br_defaults() {
 		'pdp_delivery_note'  => '24–48 hours',
 		'pdp_delivery_text'  => '24–48 hours, arriving at your doorstep.',
 		'pdp_give_title'     => 'A Portion of Proceeds',
-		'pdp_give_text'      => 'A portion of proceeds supports the Los Angeles County Relief Fund for Palisades & Eaton fire relief.',
+		'pdp_give_text'      => 'A portion of proceeds supports The California Community Foundation Wildfire Recovery Fund.',
 		'pdp_designed_in'    => 'Designed in Pacific Palisades, California',
 		'pdp_returns'        => 'Orders ship within 24–48 hours. Complimentary standard shipping on orders over {free_shipping}; express delivery available at checkout.',
 		'pdp_returns_2'      => 'Not completely happy? Contact us within 14 days of delivery for returns and exchanges.',

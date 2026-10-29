@@ -57,7 +57,7 @@ BR.onReady = function () {
         '<h1 class="pdp2__title">' + esc(p.name) + '</h1>' +
         '<div id="rating-line">' + ratingLine() + '</div>' +
         '<div class="pdp2__price"><span>' + store.money(p.price) + '</span></div>' +
-        '<div class="pdp2__promo">' + I.gift + '<span>A portion of proceeds supports the Los Angeles County Relief Fund for Palisades &amp; Eaton fire relief.</span></div>' +
+        '<div class="pdp2__promo">' + I.gift + '<span>A portion of proceeds supports The California Community Foundation Wildfire Recovery Fund.</span></div>' +
 
         '<div class="opt"><div class="opt__head"><span class="opt__label">Print: <strong>' + esc(p.color || p.name) + '</strong></span><span class="muted" style="font-size:var(--fs-xs)">' + BR.PRODUCTS.length + ' prints</span></div>' +
           '<div class="swatches">' + BR.PRODUCTS.map(function (x) { return '<a class="swatch' + (x.id === p.id ? " is-active" : "") + '" href="product.html?p=' + x.id + '" aria-label="' + esc(x.name) + '" title="' + esc(x.color || x.name) + '"' + (x.id === p.id ? ' aria-current="true"' : "") + '><img src="' + BR.img(x.images[0], "sm") + '" alt="" width="56" height="75" loading="lazy"></a>'; }).join("") + '</div></div>' +
@@ -78,7 +78,7 @@ BR.onReady = function () {
         '<div class="delivery" role="tablist" aria-label="Delivery and giving">' +
           '<button type="button" class="delivery__opt is-active" role="tab" aria-selected="true">' + I.truck + '<div><div class="delivery__title">Ship To You <em>' + (cfg.freeShippingThreshold ? "Free over " + store.money(cfg.freeShippingThreshold) : "") + '</em></div><div class="delivery__desc">Enjoy the convenience of shopping from home! Your favorite Brigitte Rose pieces will be carefully packaged and shipped directly to your doorstep, making your shopping experience simple and effortless.</div></div></button>' +
           '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.sparkle + '<div><div class="delivery__title">Delivery <em>24–48 hours</em></div><div class="delivery__desc">24–48 hours, arriving at your doorstep.</div></div></button>' +
-          '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.gift + '<div><div class="delivery__title">A Portion of Proceeds</div><div class="delivery__desc">A portion of proceeds supports the Los Angeles County Relief Fund for Palisades &amp; Eaton fire relief.</div></div></button>' +
+          '<button type="button" class="delivery__opt" role="tab" aria-selected="false">' + I.gift + '<div><div class="delivery__title">A Portion of Proceeds</div><div class="delivery__desc">A portion of proceeds supports The California Community Foundation Wildfire Recovery Fund.</div></div></button>' +
         '</div>' +
 
         '<div class="accordion pdp2__details">' +
