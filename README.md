@@ -86,7 +86,7 @@ Headless Chromium (Playwright) across 13 pages at 1440, 1024, 768, 390 and 320 p
 
 ## Items for client approval
 
-1. **Contact email & phone** are the live site's placeholders (`ex@domain.com`, `(+1) 234 56 789`). Replace in `data.js` and `tools/layout.html`.
+1. **Contact email** is `info@brigitterose.shop`. The phone is still the live site's placeholder (`(+1) 234 56 789`). Replace in `data.js` and `tools/layout.html`.
 2. **Instagram URL** is not set on the live site; currently points to instagram.com.
 3. **Gallery copy** ("Fall/Winter 2026… plaids and floral prints") does not match the sparkle-set imagery. Kept verbatim; recommend revising.
 4. **Terms & Privacy** pages are standard drafts and need legal review (the live site returns 404 for both).

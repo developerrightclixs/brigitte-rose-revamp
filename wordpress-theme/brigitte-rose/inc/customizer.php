@@ -17,7 +17,7 @@ function br_defaults() {
 		'announce_text'      => 'A portion of every order supports fire-relief efforts in Pacific Palisades & Altadena',
 		'announce_link'      => '',
 		// Contact.
-		'contact_email'      => 'ex@domain.com',
+		'contact_email'      => 'info@brigitterose.shop',
 		'contact_location'   => 'Pacific Palisades, California',
 		'instagram_url'      => 'https://www.instagram.com/',
 		// Newsletter band.

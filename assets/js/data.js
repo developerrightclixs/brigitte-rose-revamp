@@ -33,7 +33,7 @@ BR.CONFIG = {
     { size: "L", us: "12\u201314", bust: "38\u201340\"", waist: "30\u201332\"", hips: "40\u201342\"" }
   ],
   contact: {
-    email: "ex@domain.com",       // TODO client: replace with real inbox
+    email: "info@brigitterose.shop",
     location: "Pacific Palisades, California",
     instagram: "https://www.instagram.com/" // TODO client: confirm handle
   }
